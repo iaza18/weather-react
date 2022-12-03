@@ -1,0 +1,21 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
+import WeatherApp from "./WeatherApp";
+import CodedBy from "./CodedBy";
+
+import "./App.css";
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+     <div className="App">
+      <WeatherApp />
+      <CodedBy />
+    </div>
+  </React.StrictMode>
+);
+
+reportWebVitals();

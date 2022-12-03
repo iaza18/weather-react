@@ -1,0 +1,119 @@
+.WeatherApp {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/130/original/background-sky.jpeg?1666737509");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid rgb(66, 63, 85);
+  padding: 20px;
+  margin: 50px auto 0;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.WeatherApp h1 {
+  padding-bottom: 5px;
+  font-weight: 300;
+  line-height: 70px;
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+.WeatherApp h6 {
+  color: rgb(185, 185, 185);
+  padding-bottom: 80px;
+  font-size: 14px;
+  opacity: 90%;
+}
+
+.WeatherApp .currentTemp {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 90px;
+  line-height: 55px;
+  margin: 0;
+}
+
+.WeatherApp .currentData {
+  color: rgb(185, 185, 185);
+  font-weight: 500;
+  line-height: 16px;
+  margin: 5px 0 0 15px;
+  font-size: 14px;
+  opacity: 80%;
+}
+
+.WeatherApp .dayData {
+  font-weight: 500;
+  padding-top: 7px;
+  text-align: left;
+  line-height: 24px;
+}
+.WeatherApp .weatherData {
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+}
+.WeatherApp .tempData {
+  padding-top: 7px;
+  text-align: right;
+  line-height: 24px;
+}
+.WeatherApp .currentLocation {
+  background-color: transparent;
+  border: 0px;
+  color: #d56748;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.WeatherApp .current-weather-block {
+  padding-top: 80px;
+}
+.WeatherApp .current-weather-block .active {
+  color: rgb(205, 134, 2);
+  cursor: default;
+}
+.WeatherApp .current-weather-block .active:hover {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.WeatherApp #right-block {
+  padding: 30px 0 30px 50px;
+}
+
+.WeatherApp #left-block {
+  padding-left: 20px;
+}
+
+.WeatherApp #search-city {
+  width: 100%;
+  opacity: 80%;
+}
+
+.WeatherApp #current-city {
+  text-transform: capitalize;
+}
+
+.WeatherApp #weather-description {
+  text-transform: capitalize;
+  padding-left: 5px;
+  padding-top: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.WeatherApp #weather-icon {
+  height: 70px;
+  width: 70px;
+  padding: 0;
+}
+
+.WeatherApp #icon {
+  background-color: transparent;
+  border: 0px;
+  color: #d56748;
+  display: inline-block;
+  font-size: 26px;
+  margin-top: 10px;
+}
