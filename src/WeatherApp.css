@@ -4,8 +4,7 @@
   background-size: cover;
   border: 1px solid rgb(66, 63, 85);
   padding: 20px;
-  margin: 50px auto 0;
-  max-width: 700px;
+
   border-radius: 10px;
 }
 
@@ -21,6 +20,7 @@
 .WeatherApp h6 {
   color: rgb(185, 185, 185);
   padding-bottom: 80px;
+  padding-left: 5px;
   font-size: 14px;
   opacity: 90%;
 }
@@ -36,7 +36,7 @@
   color: rgb(185, 185, 185);
   font-weight: 500;
   line-height: 16px;
-  margin: 5px 0 0 15px;
+  margin: 5px 0 0 10px;
   font-size: 14px;
   opacity: 80%;
 }
@@ -97,7 +97,7 @@
 
 .WeatherApp #weather-description {
   text-transform: capitalize;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-top: 40px;
   font-size: 16px;
   font-weight: 700;
@@ -106,14 +106,14 @@
 .WeatherApp #weather-icon {
   height: 70px;
   width: 70px;
-  padding: 0;
+  padding-top: 40px;
 }
 
 .WeatherApp #icon {
   background-color: transparent;
   border: 0px;
   color: #d56748;
-  display: inline-block;
-  font-size: 26px;
-  margin-top: 10px;
+  display: flex;
+  font-size: 28px;
+  margin-top: -5px;
 }

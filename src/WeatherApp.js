@@ -13,6 +13,7 @@ export default function WeatherApp() {
   };
   return (
     <div className="WeatherApp">
+        <div className="container">
       <div className="row">
         <div className="col-6" id="right-block">
           <h1 id="current-city">{weatherData.city}</h1>
@@ -52,6 +53,7 @@ export default function WeatherApp() {
           <Search />
         </div>
       </div>
+    </div>
     </div>
   );
 }
