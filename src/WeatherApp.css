@@ -25,7 +25,7 @@
   opacity: 90%;
 }
 
-.WeatherApp .currentTemp {
+.WeatherApp .temperature {
   color: rgba(0, 0, 0, 0.8);
   font-size: 90px;
   line-height: 55px;
