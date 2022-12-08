@@ -57,7 +57,7 @@ function search() {
                     id="search-city"
                     type="search"
                     placeholder="🌗 Enter Location..."
-                    autoFocus="off"
+                    autoComplete="off"
                     onChange={handleCityChange}
                     />
                 </form>
