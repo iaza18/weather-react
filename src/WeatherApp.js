@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
 import axios from "axios";
 import Search from "./Search";
 import "./WeatherApp.css";
@@ -7,7 +8,6 @@ import "./WeatherApp.css";
 export default function WeatherApp(props) {
     const [weatherData, setWeatherData] = useState({ready: false});
 function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
         ready: true,
         temperature: response.data.main.temp,
@@ -16,8 +16,7 @@ function handleResponse(response) {
         humidity: response.data.main.humidity,
         description: response.data.weather[0].description,
         iconUrl: "http://openweathermap.org/img/wn/$@2x.png",
-        date:  `Tuesday, October 22`,
-        time: `20:25`,
+        date: new Date(response.data.dt * 1000)
     });
 }
 
@@ -29,7 +28,7 @@ function handleResponse(response) {
                 <div className="col-6" id="right-block">
                   <h1 id="current-city">{weatherData.city}</h1>
                   <h6 id="current-date">
-                    {weatherData.date} <br /> {weatherData.time}
+                    <FormattedDate date={weatherData.date} />
                   </h6>
                   <div className="current-weather-block">
                     <span className="local-weather">
