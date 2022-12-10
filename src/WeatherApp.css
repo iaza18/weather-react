@@ -104,9 +104,7 @@
   margin: 0;
 }
 .WeatherApp #weather-icon {
-  height: 70px;
-  width: 70px;
-  padding-top: 40px;
+  padding: 0px;
 }
 
 .WeatherApp #icon {
