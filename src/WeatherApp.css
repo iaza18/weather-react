@@ -28,7 +28,7 @@
 .WeatherApp .temperature {
   color: rgba(0, 0, 0, 0.8);
   font-size: 90px;
-  line-height: 55px;
+  line-height: 80px;
   margin: 0;
 }
 
@@ -103,8 +103,9 @@
   font-weight: 700;
   margin: 0;
 }
-.WeatherApp #weather-icon {
-  padding: 0px;
+.WeatherApp canvas {
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .WeatherApp #icon {
