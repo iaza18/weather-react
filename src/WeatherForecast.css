@@ -1,0 +1,40 @@
+
+  .WeatherForecast h3 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    padding-top: 35px;
+  }
+
+  .WeatherForecast-days {
+    padding: 0px;
+    margin: 5px 0px 0px;
+    background-color: rgb(217, 216, 216);
+  }
+  .WeatherForecast-days-block {
+    background-color: #D2D1D2;
+    border-radius: 10px;
+  }
+  .WeatherForecast-day {
+    font-weight: 500;
+    padding-top: 7px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .WeatherForecast-icon {
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+  }
+  .WeatherForecast-temperature {
+    padding-top: 7px;
+    text-align: right;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+  }
+  .WeatherForecast-temperature-min {
+    opacity: 0.85;
+  }
+  .WeatherForecast-temperature-max {
+    font-weight: 500;
+  }

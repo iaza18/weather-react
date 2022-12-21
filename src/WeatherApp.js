@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
 import "./WeatherApp.css";
@@ -67,7 +68,9 @@ function search() {
           <i className="fa-solid fa-location-dot fa-xl" id="icon"></i>
         </div>
       </div>
-    </div>
+     <WeatherForecast />
+
+             </div>
                 </div>
               </div>
               </div>
