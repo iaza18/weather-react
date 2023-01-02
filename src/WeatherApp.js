@@ -13,6 +13,7 @@ export default function WeatherApp(props) {
     function handleResponse(response) {
     setWeatherData({
         ready: true,
+        coordinates: response.data.coord,
         temperature: response.data.main.temp,
         wind: response.data.wind.speed,
         city: response.data.name,
@@ -68,7 +69,7 @@ function search() {
           <i className="fa-solid fa-location-dot fa-xl" id="icon"></i>
         </div>
       </div>
-     <WeatherForecast />
+     <WeatherForecast coordinates={weatherData.coordinates}/>
 
              </div>
                 </div>
