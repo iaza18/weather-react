@@ -22,7 +22,9 @@ function fahrenheit() {
         {Math.round(props.celsius)}</span>
         <span className="units">
              °C |
-            <a href="/" onClick={displayFahrenheit} >
+            <a href="/" onClick={displayFahrenheit} 
+            target="_blank" 
+            rel="noopener noreferrer">
             °F </a>
             </span>
         </span>
@@ -33,7 +35,9 @@ function fahrenheit() {
     <span className="temperature">
         {Math.round(fahrenheit())}</span>
         <span className="units">
-            <a href="/" onClick={displayCelsius}>
+            <a href="/" onClick={displayCelsius}
+            target="_blank" 
+            rel="noopener noreferrer">
              °C </a>|{" "} °F
             </span>
         </span>
