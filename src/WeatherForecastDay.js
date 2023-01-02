@@ -17,7 +17,7 @@ function day() {
     let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
 
-    let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
     return days[day];
 }
@@ -25,7 +25,7 @@ function day() {
     return (
         <div className="row ">
               <span className="col-4 WeatherForecast-day">{day()}</span>
-              <span className="col-4 WeatherForecast-icon"> <WeatherIcon code={props.data.weather[0].icon} size={22}/> </span>
+              <span className="col-4 WeatherForecast-icon"> <WeatherIcon code={props.data.weather[0].icon} size={24}/> </span>
             <div className="col-4 WeatherForecast-temperature">
                 <span className="WeatherForecast-temperature-max">{maxTemperature()} </span>
                 <span className="WeatherForecast-temperature-min">{minTemperature()}</span>   

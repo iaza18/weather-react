@@ -15,7 +15,7 @@ export default function WeatherInfo(props) {
                     <span className="local-weather">
                       <span id="weather-description">{props.data.description}</span>
                      <span className="float-left" id="weather-icon">
-                      <WeatherIcon code={props.data.icon} size={32} />
+                      <WeatherIcon code={props.data.icon} size={34} />
                       </span>
                     </span>
                     <br />
