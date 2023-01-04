@@ -98,11 +98,3 @@
   text-align: center;
 }
 
-.WeatherApp #icon {
-  background-color: transparent;
-  border: 0px;
-  color: #d56748;
-  display: flex;
-  font-size: 28px;
-  margin-top: -5px;
-}

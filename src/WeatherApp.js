@@ -51,7 +51,7 @@ function search() {
                 <div className="col-6" id="left-block">
                 <div className="Search">
                 <div className="row location">
-                <div className="col-10">
+                <div className="col-11">
                 
                 <form onSubmit={handleSubmit} className="d-flex" role="search">
                     <input
@@ -63,10 +63,6 @@ function search() {
                     onChange={handleCityChange}
                     />
                 </form>
-        </div>
-        <div className="col-2">
-          <button className="currentLocation" />
-          <i className="fa-solid fa-location-dot fa-xl" id="icon"></i>
         </div>
       </div>
      <WeatherForecast coordinates={weatherData.coordinates}/>
